@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.2.0/css/all.min.css">
+<style>
+   body{
+    background-image:url(https://t4.ftcdn.net/jpg/04/38/55/69/360_F_438556946_UKupZvZrCzbfIxawj8P57hoDSl7ypza9.jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    overflow-x: hidden;
+   }
+
+     nav{
+        width: 50%;
+        height: 90px;
+       
+        
+    }
+    nav ul{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        background-color: #121122;
+        color: white;
+        font-size: 18px;
+        height: 50px;
+        border-radius: 50px;
+    }
+    nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+    }
+    nav > ul > li {
+    list-style: none;
+    }
+
+ .parent{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+ }
+  .parent button{
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 13px;
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .codes{
+    color: white;
+    align-content: center;
+    height: 500px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+  }
+  .codes h1{
+    font-size: 65px;
+    font-weight: bold;
+  }
+  .codes p{
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .codes span{
+    color: orange;
+  }
+  .codes button{
+     padding: 17px 25px;
+    cursor: pointer;
+    border-radius: 13px;
+    background-color: white;
+    color:white;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px;
+    background: transparent;
+     transition: all 0.5s;
+    
+  }
+  .codes button:hover{
+    background-color: orange;
+    color:black;
+  }
+  .codes h1:hover{
+    color: orange;
+     transition: all 0.5s;
+  }
+  .codes h1:hover span{
+    color: white;
+     transition: all 0.5s;
+  }
+  .card1{
+    width: 400px;
+    height: 120px;
+    padding: 12px;
+    border-radius: 6px;
+    /* border: 1px solid black; */
+    margin: 15px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+
+  }
+  .card1 h1{
+    font-size: 22px;
+  }
+  .Cards{
+    margin-top: 75px;
+    display: flex;
+  }
+  .cont .logo {
+    font-size: 3.2rem;
+    border-radius: 15px;
+    margin-top: 10px;
+    width: 50px;
+  }
+  .detail{
+      width: 400px;
+    height: 120px;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid black;
+    margin: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s;
+
+  }
+  .detail:hover{
+    background-color: black;
+    color: white;
+    transition: all 3s;
+  }
+  .data{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    /* border: 1px solid black; */
+    
+  
+  }
+  .data1{
+    width: 50%;
+    height: 620px;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnlnVgU9hEulD5WjijhdcIwp4mlAROwQso7-Nc6u1akw&s=10" );
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    
+  }
+  .data2{
+    width: 50%;
+    height: 650px;
+    /* border: 1px solid black; */
+    padding: 12px;
+  }
+  .six{
+     width:100%;
+    height: 80px;
+    padding: 6px;
+    border-radius: 6px;
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .six1{
+      width: 250px;
+    height: 60px;
+    padding: 12px;
+    border-radius: 6px;
+    /* border: 1px solid black; */
+    margin: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+  }
+  .six1 h3{
+    font-size: 20px;
+  }
+  .data2 h1{
+    font-size: 55px;
+    
+  }
+  .data2 h1 span{
+    color: orange;
+  }
+  .data2 span p{
+    font-size: 20px;
+  }
+  .data2 button{
+    width: 200px;
+    height: 50px;
+    padding: 12px 15px;
+    border-radius: 50px;
+    background-color: black;
+    color: aliceblue;
+    margin-left: 200px;
+  }
+  .data1:hover{
+    transition: all 0.5s;
+    transform: scale(1.01);
+
+  }
+  .six1:hover{
+    transition: all 0.5s;
+    transform: scale(1.03);
+
+  }
+
+
+
+
+</style>
+<body>
+    <div class="parent">
+        <div class="img">
+        <img src="https://codesthinker.com/companylogo.png " alt="" height="50px" width="100px">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Project</a></li>
+            <li><a href="">Apply</a></li>
+            <li><a href="">Teams</a></li>
+            <li><a href="">Blogs</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <button>Services Request</button>
+
+    
+    </div>
+
+    <div class="codes">
+        <h1>Wellcome to <span>Code's Thinker</span></h1>
+        <p>We craft, User-friendly digital solutions that help business inovatte <br> and grow. </p>
+        <button style="background-color: orange; color: black;">View Our Work</button>
+        <button>Contact Us</button>
+    </div>
+    <div class="Cards">
+      <div class="detail">
+        <div class="cont">
+          <i><i class="fa-solid fa-envelope logo"></i></i>
+        </div>
+      <div class="card1">
+        <h1>Perfect business solution</h1>
+        <p>When an unknown printer took a galley type <br>book to make a type specimen.</p>
+      </div>
+      </div>
+
+
+
+
+
+       <div class="detail">
+        <div class="cont">
+          <i><i class="fa-solid fa-rocket logo"></i></i>
+        </div>
+      <div class="card1">
+        <h1>Growth Strategy & Scale</h1>
+        <p>Accelerate your roadmap with high performing dedicated development frameworks.</p>
+      </div>
+      </div>
+
+
+
+
+
+       <div class="detail">
+        <div class="cont">
+          <i><i class="fa-brands fa-intercom logo"></i></i>
+        </div>
+      <div class="card1">
+        <h1>Top Tier Quality Assurance</h1>
+        <p>Delivering pixel perfect products optimized for Conversions and Stability.</p>
+      </div>
+      </div>
+      
+       
+          
+    </div>
+    <div class="data">
+      <div class="data1">
+         
+      </div>
+      <div class="data2">
+        <h2>Who we are</h2>
+        <h1>About <span>Code's</span>Thinker</h1>
+        <span><p>We redefine excellence in business solutions. Our approach  combines technical mastery with creative strategy to drive sustainable growth for modern enterprises.</p></span>
+        <div class="six">
+          <div class="six1">
+            <i><i class="fa-solid fa-user-group logo"></i></i>
+            <div class="cont1">
+              <h3>Industry Expert Staff</h3>
+              <p>10+ years of collective experience</p>
+            </div>
+          </div>
+        
+    
+          <div class="six1">
+            <i><i class="fa-solid fa-tent-arrow-down-to-line logo"></i></i>
+            <div class="cont1">
+              <h3>Cutting-Edge Tech</h3>
+              <p>React, Node.js, Python, Cloud</p>
+            </div>
+          </div>
+        
+        
+          <div class="six1">
+            <i><i class="fa-solid fa-mountain logo"></i></i>
+            <div class="cont1">
+              <h3>Certified Pros</h3>
+              <p>Industry-recognized certifications</p>
+            </div>
+          </div>
+        
+        
+          <div class="six1">
+            <i><i class="fa-solid fa-compass logo"></i></i>
+            <div class="cont1">
+              <h3>Client-Centric</h3>
+              <p>Your success is our priority</p>
+            </div>
+          </div>
+        
+        
+          <div class="six1">
+            <i><i class="fa-solid fa-fire-burner"></i></i>
+            <div class="cont1">
+              <h3>24/7 Support</h3>
+              <p>Round-the-clock assistance</p>
+            </div>
+          </div>
+        
+          <div class="six1">
+            <i><i class="fa-solid fa-fire-burner"></i></i>
+            <div class="cont1">
+              <h3>Transparent Pricing</h3>
+              <p>No hidden costs, clear terms</p>
+            </div>
+          </div>
+          <button>Learn More About Us <i class="fa-solid fa-arrow-right-long"></i></button>
+        </div>
+        
+
+      </div>
+   
+    
+</body>
+</html>
